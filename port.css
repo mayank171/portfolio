@@ -1,5 +1,6 @@
 *{
 	font-family: 'Arvo', serif;
+
 }
 
 
@@ -122,7 +123,7 @@
 
 
 #home{
-	margin-top: -1400px;
+	margin-top: -1300px;
     border: #f1f1f1;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
@@ -161,16 +162,52 @@
  }
 
  #home{
- 	top :400px;
+ 	top :200px;
     position: relative;
 
  }
  #blog{
- 	top: 400px;
+   top: 300px;
  	position: relative;
  }
  #contact{
- top: 400px;
+    top: 100px;
+    position: relative;
+
+ }
+}
+
+
+@media (min-width: 100px) and (max-width: 500px){
+ 
+ 
+
+ .img1{
+ 	
+ 	float: left;
+ 	width: 50px;
+
+ }
+ 
+ #intro{
+ 	margin-top: 400px;
+ 	position: absolute;
+ 	margin-left:auto;
+ 	margin-right: auto;
+ 	text-align: center;
+ }
+
+ #home{
+ 	top :200px;
+    position: relative;
+
+ }
+ #blog{
+   top: 400px;
+ 	position: relative;
+ }
+ #contact{
+    top: 100px;
     position: relative;
 
  }
@@ -178,10 +215,9 @@
 
 
 
-
 #blog{
  
- 
+ 	margin-top: -1000px;
    
 }
 
