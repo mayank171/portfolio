@@ -3,11 +3,18 @@
 
 }
 
+/*.head{
+	background: linear-gradient(90deg,#ffedbc,#ed4264);
+}
+*/
+
+
 
 
 .navbar-nav{
 	margin-left: auto;
    font-weight: 600;
+
 }
 
 .navbar-nav li{
@@ -15,13 +22,18 @@
 }
 
 .nav-item{
-	transition: font-style 2s;
-}
 
+    border-radius: 5px;
+    transition: background-color 1s;
+}
 
 .nav-item:hover{
-	font-style: italic;
+  background-color:  #5b86e5;
 }
+
+
+
+
 
 
 
@@ -53,41 +65,79 @@
 }
 
 
-
-
-
-
-#first{
-	text-decoration: underline;
-	text-decoration-color: hotpink;
-
+#hey{
+	margin-left: 170px;
 }
 
-#second{
-	text-decoration: underline;
-	text-decoration-color: green;
-	
+#im{
+	margin-left: 10px;
 }
 
 
-#third{
-	text-decoration: underline;
-	text-decoration-color: indianred;
-	
+ a {
+	color: none;
+
 }
 
+ 
 
-#fourth{
-	text-decoration: underline;
-	text-decoration-color: blueviolet;
-	
+.linkedin{
+	background-color: #FFF;
+	padding: 8px 10px 20px 12px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 10px;
+	transition: color 1s linear;
+   transition: background-color 1s linear;
 }
 
+.linkedin:hover{
+   background-color: #0e76a8;
+   color: white;
+}
 
-#fifth{
-	text-decoration: underline;
-	text-decoration-color: rebeccapurple;
-	
+.fb{
+	background-color: #FFF;
+	padding: 10px 15px 10px 15px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 10px;
+	transition: color 1s linear;
+   transition: background-color 1s linear;
+   margin-left: 100px;
+}
+
+.fb:hover{
+   background-color: #3b5998;
+   color: white;
+}
+
+.git{
+	background-color: #FFF;
+	padding: 10px 15px 10px 15px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 10px;
+	transition: color 1s linear;
+   transition: background-color 1s linear;
+   margin-left: 100px;
+}
+
+.git:hover{
+   background-color: black;
+   color: white;
 }
 
 
@@ -101,11 +151,17 @@
 	
 }
 
-@media(max-width: 575px){
+@media(max-width: 1025px){
+
+ #hey{
+   margin-left: auto;
+   margin-right: auto;
+ }
+
  .img1{
-	display: block;
+
 	margin-top: -120px;
-	margin-right: -20px;
+	
     }
  .contents{
  	position: relative;
@@ -115,10 +171,14 @@
 }
 
 @media(min-width: 100px)and(max-width: 380px){
-	.img1{
-		width: 50px;
 
-	}
+   #hey{
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+
+	
 }
 
 
@@ -138,7 +198,7 @@
 
 }
 
-#home h3{
+#home h2{
 	font-weight: 500;
 	margin-bottom: 15px;
 	color: rebeccapurple;
@@ -148,16 +208,17 @@
  
  .img1{
  	
- 	float: left;
- 	
+ 	margin-top: -30px;
+ 	margin-left: 40%;
+ 	margin-right: 25%;
 
  }
  
  #intro{
  	margin-top: 400px;
  	position: absolute;
- 	margin-left:auto;
- 	margin-right: auto;
+ 	margin-left:5%;
+ 	margin-right: 20%;
  	text-align: center;
  }
 
@@ -167,23 +228,88 @@
 
  }
  #blog{
-   top: 250px;
+   top: 100px;
  	position: relative;
  }
  #qualify{
-    top: 300px;
+    top: 200px;
     position: relative;
 
  }
 }
 
 
-@media(min-width: 100px) and (max-width: 500px){
+@media(min-width: 400px) and (max-width: 500px){
  
- 
+ .navbar{
+ 	width: 100%;
+ }
 
  .img1{
- 	
+ 	width: 320px;
+ 	margin-left: 50px;
+ 	float: left;
+ 
+
+ }
+ 
+ #intro{
+ 	margin-top: 400px;
+ 	position: absolute;
+ 	margin-left:20px;
+ 	margin-right: auto;
+ 	text-align: center;
+ }
+
+ .fb{
+ 	margin-left: 50px;
+ }
+
+ .git{
+ 	margin-left: 50px;
+ }
+
+
+
+ #home{
+ 	top :200px;
+ 	margin-left: 20px;
+    position: relative;
+
+ }
+ #blog{
+   top: 200px;
+ 	position: relative;
+ }
+ #qualify{
+    top: 200px;
+    margin-left: 20px;
+    position: relative;
+
+ }
+}
+
+
+@media(min-width: 100px) and (max-width: 399px){
+ 
+ .navbar{
+ 	width: 110%;
+ }
+
+
+
+ .fb{
+ 	margin-left: 50px;
+ }
+
+ .git{
+ 	margin-left: 50px;
+ }
+
+
+ .img1{
+ 	width: 320px;
+ 	margin-left: 25px;
  	float: left;
  	width: 50px;
 
@@ -192,26 +318,30 @@
  #intro{
  	margin-top: 400px;
  	position: absolute;
- 	margin-left:auto;
+ 	margin-left:20px;
  	margin-right: auto;
  	text-align: center;
  }
 
  #home{
  	top :200px;
+ 	margin-left: 20px;
     position: relative;
 
  }
  #blog{
-   top: 400px;
+   top: 200px;
  	position: relative;
  }
  #qualify{
-    top: 600px;
+    top: 150px;
+    margin-left: 20px;
     position: relative;
 
  }
 }
+
+
 
 
 
@@ -222,8 +352,8 @@
 }
 
 
-.skills h1{
-	font-size:30px;
+.skills h2{
+	
 	text-align: center;
 	color: #4A6163;
 }
@@ -328,8 +458,9 @@
    
 }
 
-#qualify h3{
+#qualify h2{
 	text-align: center;
+
 }
 
 .tree{
