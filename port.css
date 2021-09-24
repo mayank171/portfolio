@@ -83,62 +83,61 @@
 
 .linkedin{
 	background-color: #FFF;
-	
 	display: inline-block;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	border-style: none;
 	border-radius: 50%;
 	font-size: 30px;
 	margin-left: 10px;
-	transition: color 1s linear;
-   transition: background-color 1s linear;
+	
 }
 
-.linkedin:hover{
-   background-color: #0e76a8;
-   color: white;
+.linkedin img{
+	padding: 0 0 10px 0;
 }
+
+
+
 
 .fb{
 	background-color: #FFF;
 	
 	display: inline-block;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	border-style: none;
 	border-radius: 50%;
 	font-size: 30px;
 	margin-left: 10px;
-	transition: color 1s linear;
-   transition: background-color 1s linear;
    margin-left: 100px;
 }
 
-.fb:hover{
-   background-color: #3b5998;
-   color: white;
+.fb img{
+	padding: 0 0 10px 0;
 }
+
+
+
 
 .git{
 	background-color: #FFF;
-
 	display: inline-block;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	border-style: none;
 	border-radius: 50%;
 	font-size: 30px;
 	margin-left: 10px;
-	transition: color 1s linear;
-   transition: background-color 1s linear;
+
    margin-left: 100px;
 }
 
-.git:hover{
-   background-color: black;
-   color: white;
+.git img{
+	padding: 0 0 10px 0;
 }
+
+
 
 
 
@@ -236,6 +235,12 @@
     position: relative;
 
  }
+
+ #work{
+    top: 200px;
+    position: relative;
+
+ }
 }
 
 
@@ -284,6 +289,12 @@
  #qualify{
     top: 200px;
     margin-left: 20px;
+    position: relative;
+
+ }
+
+ #work{
+    top: 200px;
     position: relative;
 
  }
@@ -336,6 +347,12 @@
  #qualify{
     top: 150px;
     margin-left: 20px;
+    position: relative;
+
+ }
+
+ #work{
+    top: 200px;
     position: relative;
 
  }
