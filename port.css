@@ -199,7 +199,7 @@
 }
 
 
-@media(min-width: 100px) and (max-width: 500px){
+@media(min-width: 100px) and (max-width: 800px){
  
  .navbar{
  	width: 110%;
@@ -207,7 +207,7 @@
 
  .img1{
  	width: 320px;
- 	margin-left: 50px;
+ 	margin-left: 35px;
  	float: left;
  
 
@@ -238,18 +238,19 @@
 
  }
  #blog{
-   top: 350px;
+   top: 330px;
  	position: relative;
  }
+
  #qualify{
-    top: 250px;
+    top: 200px;
     margin-left: 20px;
     position: relative;
 
  }
 
  #work{
-    top: 100px;
+    top: 50px;
     position: relative;
 
  }
@@ -535,7 +536,7 @@
 
 
  .container{
- 	margin-top: 200px;
+ 	margin-top: 150px;
  	position: relative;
  	height: 200px;
  	padding: 20px;
@@ -645,7 +646,7 @@
    background-color: black;
  }
 
-@media (min-width: 100px) and (max-width: 500px){
+@media (min-width: 100px) and (max-width: 800px){
  
     .container .card:nth-child(1){
     	display: block;
