@@ -3,10 +3,7 @@
 
 }
 
-/*.head{
-	background: linear-gradient(90deg,#ffedbc,#ed4264);
-}
-*/
+
 
 
 
@@ -19,6 +16,10 @@
 
 .navbar-nav li{
 	margin-right: 20px;
+}
+
+.navbar-brand{
+   margin-left: 15px;
 }
 
 .nav-item{
@@ -36,9 +37,6 @@
 
 
 
-
-
-
 .content-container{
 	content: '';
 	position: relative;
@@ -46,7 +44,9 @@
 	width: 300px;
 	top: 0px;
 	left: 0;
+
 }
+
 
 
 
@@ -66,7 +66,7 @@
 
 
 #hey{
-	margin-left: 170px;
+	margin-left: 10px;
 }
 
 #im{
@@ -74,21 +74,13 @@
 }
 
 
- a {
-	color: none;
-
-}
 
  
 
 .linkedin{
-	background-color: #FFF;
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	border-style: none;
-	border-radius: 50%;
-	font-size: 30px;
 	margin-left: 10px;
 	
 }
@@ -101,15 +93,10 @@
 
 
 .fb{
-	background-color: #FFF;
 	
 	display: inline-block;
 	height: 40px;
-	width: 40px;
-	border-style: none;
-	border-radius: 50%;
-	font-size: 30px;
-	margin-left: 10px;
+	width: 40px;	
    margin-left: 100px;
 }
 
@@ -121,15 +108,9 @@
 
 
 .git{
-	background-color: #FFF;
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	border-style: none;
-	border-radius: 50%;
-	font-size: 30px;
-	margin-left: 10px;
-
    margin-left: 100px;
 }
 
@@ -150,39 +131,13 @@
 	
 }
 
-@media(max-width: 1025px){
-
- #hey{
-   margin-left: auto;
-   margin-right: auto;
- }
-
- .img1{
-
-	margin-top: -120px;
-	
-    }
- .contents{
- 	position: relative;
-	z-index: 5;
-	top: 150px;
- }
-}
-
-@media(min-width: 100px)and(max-width: 380px){
-
-   #hey{
-   margin-left: auto;
-   margin-right: auto;
- }
 
 
-	
-}
+
 
 
 #home{
-	margin-top: -1300px;
+	margin-top: -1400px;
     border: #f1f1f1;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
@@ -244,85 +199,17 @@
 }
 
 
-@media(min-width: 400px) and (max-width: 500px){
- 
- .navbar{
- 	width: 100%;
- }
-
- .img1{
- 	width: 320px;
- 	margin-left: 50px;
- 	float: left;
- 
-
- }
- 
- #intro{
- 	margin-top: 400px;
- 	position: absolute;
- 	margin-left:20px;
- 	margin-right: auto;
- 	text-align: center;
- }
-
- .fb{
- 	margin-left: 50px;
- }
-
- .git{
- 	margin-left: 50px;
- }
-
-
-
- #home{
- 	top :200px;
- 	margin-left: 20px;
-    position: relative;
-
- }
- #blog{
-   top: 200px;
- 	position: relative;
- }
- #qualify{
-    top: 200px;
-    margin-left: 20px;
-    position: relative;
-
- }
-
- #work{
-    top: 200px;
-    position: relative;
-
- }
-}
-
-
-@media(min-width: 100px) and (max-width: 399px){
+@media(min-width: 100px) and (max-width: 500px){
  
  .navbar{
  	width: 110%;
  }
 
-
-
- .fb{
- 	margin-left: 50px;
- }
-
- .git{
- 	margin-left: 50px;
- }
-
-
  .img1{
  	width: 320px;
- 	margin-left: 25px;
+ 	margin-left: 50px;
  	float: left;
- 	width: 50px;
+ 
 
  }
  
@@ -334,29 +221,42 @@
  	text-align: center;
  }
 
+ .fb{
+ 	margin-left: 50px;
+ }
+
+ .git{
+ 	margin-left: 50px;
+ }
+
+
+
  #home{
- 	top :200px;
+ 	top :250px;
  	margin-left: 20px;
     position: relative;
 
  }
  #blog{
-   top: 200px;
+   top: 350px;
  	position: relative;
  }
  #qualify{
-    top: 150px;
+    top: 250px;
     margin-left: 20px;
     position: relative;
 
  }
 
  #work{
-    top: 200px;
+    top: 100px;
     position: relative;
 
  }
 }
+
+
+
 
 
 
@@ -364,7 +264,7 @@
 
 #blog{
  
- 	margin-top: -800px;
+ 	margin-top: -1000px;
    
 }
 
@@ -491,7 +391,7 @@
 
 #qualify{
  
- 	margin-top: -300px;
+ 	margin-top: -500px;
    
 }
 
@@ -627,7 +527,7 @@
 
  #work{
 
- 	margin-top: 150px;
+ 	margin-top: 30px;
  	text-align: center;
 
  }
